@@ -8,12 +8,12 @@
 Summary:	Config::Simple - simple configuration file class
 Summary(pl):	Config::Simple - prosta klasa do obs³ugi plików konfiguracyjnych
 Name:		perl-Config-Simple
-Version:	4.48
-Release:	2
+Version:	4.55
+Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4ba837aaf10a9ff35ff4b21c9bbd3ce0
+# Source0-md5:	7ce4d142bbb399a838e5370f2c1c1b4a
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
