@@ -26,7 +26,7 @@ Config::Simple - prosta klasa do obs³ugi plików konfiguracyjnych.
 %build
 %{__perl} Makefile.PL
 %{__make}
-#%{__make} test
+#%%{__make} test
 
 %install
 rm -rf $RPM_BUILD_ROOT
