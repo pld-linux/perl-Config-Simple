@@ -4,7 +4,7 @@
 Summary:	Config::Simple - Simple Configuration File Class
 Summary(pl):	Config::Simple - prosta klasa do obs³ugi plików konfiguracyjnych
 Name:		perl-%{pdir}-%{pnam}
-Version:	4.2
+Version:	4.3
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
