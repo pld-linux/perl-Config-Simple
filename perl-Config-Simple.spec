@@ -4,7 +4,7 @@
 Summary:	Config::Simple - Simple Configuration File Class
 Summary(pl):	Config::Simple - prosta klasa do obs³ugi plików konfiguracyjnych
 Name:		perl-%{pdir}-%{pnam}
-Version:	4.41
+Version:	4.46
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
@@ -37,5 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_sitelib}/%{pdir}/%{pnam}.pm
+%{perl_sitelib}/Config/Simple.pm
+%{perl_sitelib}/auto/Config/Simple
 %{_mandir}/man3/*
