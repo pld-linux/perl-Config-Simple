@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Config
 %define	pnam	Simple
-Summary:	Config::Simple -- Simple Configuration File Class.
-Summary(pl):	Config::Simple -- prosta klasa do obs³ugi plików konfiguracyjnych.
+Summary:	Config::Simple -- Simple Configuration File Class
+Summary(pl):	Config::Simple -- prosta klasa do obs³ugi plików konfiguracyjnych
 Name:		perl-%{pdir}-%{pnam}
 Version:	3.7
 Release:	1
