@@ -10,7 +10,8 @@ Summary(pl):	Config::Simple - prosta klasa do obs³ugi plików konfiguracyjnych
 Name:		perl-Config-Simple
 Version:	4.55
 Release:	1
-License:	LGPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7ce4d142bbb399a838e5370f2c1c1b4a
