@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Config
-%define	pnam	Simple
+%define		pdir	Config
+%define		pnam	Simple
 Summary:	Config::Simple - simple configuration file class
 Summary(pl):	Config::Simple - prosta klasa do obs³ugi plików konfiguracyjnych
 Name:		perl-Config-Simple
