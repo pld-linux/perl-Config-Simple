@@ -6,7 +6,7 @@
 %define		pdir	Config
 %define		pnam	Simple
 Summary:	Config::Simple - simple configuration file class
-Summary(pl):	Config::Simple - prosta klasa do obs³ugi plików konfiguracyjnych
+Summary(pl.UTF-8):   Config::Simple - prosta klasa do obsÅ‚ugi plikÃ³w konfiguracyjnych
 Name:		perl-Config-Simple
 Version:	4.58
 Release:	1
@@ -26,12 +26,12 @@ supports several configuration file syntax and tries to identify the
 file syntax to parse them accordingly. Library supports parsing,
 updating and creating configuration files.
 
-%description -l pl
-Config::Simple stanowi klasê reprezentuj±c± obiekty plików
-konfiguracyjnych. Zawiera wsparcie dla kilku sk³adni plików
-konfiguracyjnych a próbuje zidentyfikowaæ rodzaj u¿ywanej w danym
-pliku sk³adni poprzez kolejne próby ich analizy. Biblioteka wspiera
-analizê, aktualizacjê i tworzenie plików konfiguracyjnych.
+%description -l pl.UTF-8
+Config::Simple stanowi klasÄ™ reprezentujÄ…cÄ… obiekty plikÃ³w
+konfiguracyjnych. Zawiera wsparcie dla kilku skÅ‚adni plikÃ³w
+konfiguracyjnych a prÃ³buje zidentyfikowaÄ‡ rodzaj uÅ¼ywanej w danym
+pliku skÅ‚adni poprzez kolejne prÃ³by ich analizy. Biblioteka wspiera
+analizÄ™, aktualizacjÄ™ i tworzenie plikÃ³w konfiguracyjnych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
