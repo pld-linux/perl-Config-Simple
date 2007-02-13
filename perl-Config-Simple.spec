@@ -6,7 +6,7 @@
 %define		pdir	Config
 %define		pnam	Simple
 Summary:	Config::Simple - simple configuration file class
-Summary(pl.UTF-8):   Config::Simple - prosta klasa do obsługi plików konfiguracyjnych
+Summary(pl.UTF-8):	Config::Simple - prosta klasa do obsługi plików konfiguracyjnych
 Name:		perl-Config-Simple
 Version:	4.58
 Release:	1
