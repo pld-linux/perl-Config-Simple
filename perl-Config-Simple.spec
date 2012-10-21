@@ -8,13 +8,14 @@
 Summary:	Config::Simple - simple configuration file class
 Summary(pl.UTF-8):	Config::Simple - prosta klasa do obsługi plików konfiguracyjnych
 Name:		perl-Config-Simple
-Version:	4.58
-Release:	2
+Version:	4.59
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f014aec54f0a1e2e880d317180fce502
+Source0:	http://www.cpan.org/modules/by-module/Config/SHERZODR/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	96513b61c7db591339ce2577878a3b32
+URL:		http://search.cpan.org/dist/Config-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -55,4 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{perl_vendorlib}/Config/Simple.pm
 %{perl_vendorlib}/auto/Config/Simple
-%{_mandir}/man3/*
+%{_mandir}/man3/Config::Simple.3pm*
